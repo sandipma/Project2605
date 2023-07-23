@@ -12,7 +12,7 @@ namespace Project2605.Controllers
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployee _employee;
-
+        public string abd = string.Empty;
         private readonly IConfiguration _config;
 
         public EmployeeController(IConfiguration config, IEmployee employee)
